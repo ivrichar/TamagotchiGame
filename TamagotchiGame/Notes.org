@@ -1,0 +1,26 @@
+
+* classes
+:PROPERTIES:
+:ID:       4d3d7cf0-1e5f-4820-a44c-3b61daaa0ff7
+:END:
+** Food
+- effect on thirst
+- effect on hunger
+- effect on =properties=, generally speaking
+- etc...
+*** Subclasses
+**** Juice
+**** Orange
+**** etc...
+*** Methods
+** Guy
+- hunger
+- thirst
+- sleepy
+- =properties= etc.
+- =state=
+  tantrum, asleep
+*** Subclasses
+*** Methods
+**** setState
+Set the state of guy to something
