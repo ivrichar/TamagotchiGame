@@ -13,6 +13,7 @@
 		E91C96042A7AC4AC0030B98C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91C96032A7AC4AC0030B98C /* Preview Assets.xcassets */; };
 		E91C96062A7AC4AC0030B98C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91C96052A7AC4AC0030B98C /* Persistence.swift */; };
 		E91C96092A7AC4AC0030B98C /* TamagotchiGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E91C96072A7AC4AC0030B98C /* TamagotchiGame.xcdatamodeld */; };
+		E91C96102A7B545B0030B98C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91C960F2A7B545B0030B98C /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E91C96032A7AC4AC0030B98C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E91C96052A7AC4AC0030B98C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E91C96082A7AC4AC0030B98C /* TamagotchiGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TamagotchiGame.xcdatamodel; sourceTree = "<group>"; };
+		E91C960F2A7B545B0030B98C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				E91C95FC2A7AC4AB0030B98C /* TamagotchiGameApp.swift */,
+				E91C960F2A7B545B0030B98C /* Model.swift */,
 				E91C95FE2A7AC4AB0030B98C /* ContentView.swift */,
 				E91C96002A7AC4AC0030B98C /* Assets.xcassets */,
 				E91C96052A7AC4AC0030B98C /* Persistence.swift */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91C96102A7B545B0030B98C /* Model.swift in Sources */,
 				E91C96062A7AC4AC0030B98C /* Persistence.swift in Sources */,
 				E91C95FF2A7AC4AB0030B98C /* ContentView.swift in Sources */,
 				E91C96092A7AC4AC0030B98C /* TamagotchiGame.xcdatamodeld in Sources */,
